@@ -1,26 +1,47 @@
 import socket
 import sys
+import threading
+import time
 
-sock = socket.socket()
+class Client():
+	def __init__(self,username, target_username, server_address = '80.68.239.251', server_port = 10000):
+		sock = socket.socket()
+		server_address = (server_address, server_port)
+		print('connecting to {} port {}'.format(server_address[0], server_address[1]))	
+		while True:
+			try:
+				sock.connect(server_address)
+				sock.sendall('INIT'.encode())
+				sock.recv(4096)
+				sock.sendall(username.encode())
+				sock.recv(4096)
+				sock.sendall(target_username.encode())
+				sock.recv(4096)
+				SendMessage(sock, target_username).start()
+				ReceivedMessage(sock).start()
+				break
+			except ConnectionRefusedError as e:
+				print(e,'Trying again...') 
+				time.sleep(1)
+class SendMessage(threading.Thread):
+	def __init__(self, sock, target_username):
+		threading.Thread.__init__(self)
+		self.sock = sock
+		self.target_username = target_username
+	def run(self):
+		while True:
+			data = input('Wiadomosc do {}'.format(self.target_username))
+			self.sock.sendall(data.encode())
+class ReceivedMessage(threading.Thread):
+	def __init__(self, sock):
+		threading.Thread.__init__(self)
+		self.sock = sock
+	def run(self):
+		while True:
+			data = self.sock.recv(4096)
+			if not data: break
+			print('Recived message:',data.decode())
 
-server_address = ('localhost', 10000)
-print('connecting to {} port {}'.format(server_address[0], server_address[1]))
-
-sock.connect(server_address)
-sock.settimeout(1)
-print(sock.gettimeout())
-try:
-	message = 'This message will be send back'.encode()
-	print ('Sending message {}'.format(message))
-	sock.sendall(message)
-	while True:
-		data = sock.recv(4096).decode()
-		print (data)
-		if not data: 
-			sock.close() 
-			break
-		print ("received: '{}'".format(data))
-except socket.timeout:
-	print('closing connection')
-finally:
-	sock.close()
+username = input('Login as: ')
+target_username = input('Chat to: ')
+Client(username, target_username)

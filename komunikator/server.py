@@ -1,63 +1,112 @@
 import socket
 import sys
+import threading
 import time
 
-messages = {'Kasia':{'Lukas':['jeden']}}
-current_user = '' 
+messages = {}
 
-def sendWaitingMessage(connection, remote_user_name):
-	global messages
-	for local_user_name in messages:
-		for user in messages[local_user_name]:
-			if user == remote_user_name:
-				print(messages)
-				message_to_send = '\n'.join(messages[local_user_name][remote_user_name])
-				connection.sendall('{}:{}'.format(local_user_name,message_to_send).encode())
-				messages[local_user_name].pop(remote_user_name)
-				break
-def saveMessage(message):
-	global messages
-	if current_user in messages:
-		if message[:5] in messages[current_user]:
-			messages[current_user][message[:5]].append(message[5:])
-		else:
-			messages[current_user] = {message[:5]:[message[5:]]}
-	else:
-		messages[current_user] = {message[:5]:[message[5:]]}
-
-def saveUserName(user_name):
-	global current_user 
-	current_user = user_name
-	
-
-sock = socket.socket()
-server_address = ('localhost', 10000)
-print ('Starting server on {} port {}'.format(server_address[0], server_address[1]))
-while True:
-	try:
-		sock.bind(server_address)
-		break
-	except OSError:
-		print('Could not bind socket. Trying again...')
-		time.sleep(1)
-	
-sock.listen(1)
-
-while True:
-	print ('Waiting for connection...')
-	connection, client_address = sock.accept()
-	
-	try:
-		print ('Connection from: {}'.format(client_address))
+class Server():
+	def __init__(self, server_address = '192.168.1.251', server_port = 10000):
 		while True:
-			data = connection.recv(4096).decode()
-			print(data)
-			if data[:4] == 'INIT':
-				saveUserName(data[4:])
-				sendWaitingMessage(connection, data[4:])
-			elif not data:
+			try:
+				self.sock = socket.socket()
+				self.sock.bind((server_address, server_port))
+				self.sock.listen(10)
 				break
+			except OSError as e:
+				print(e)
+	def listenForConnections(self):
+		while True:
+			print ('Waiting for connection')
+			conn, client_address = self.sock.accept()
+			Connection(conn, client_address).start()
+			
+class Message(threading.Thread):
+	def __init__(self, conn, current_user):
+		print('starting message thread for:{}'.format(current_user))
+		threading.Thread.__init__(self)
+		self.conn = conn
+		self.current_user = current_user
+	def run(self):
+		while True:
+			if self.conn.fileno() == -1: break
+			print('in message:',messages, self.conn)
+			
+			for user in messages:
+				if self.current_user in messages[user]:
+					for message in messages[user][self.current_user]:
+						print('Sendind message from {} to {}'.format(user, self.current_user))
+						self.conn.sendall((message+'\n').encode())
+					messages[user][self.current_user]=[]
+			time.sleep(1)
+
+class Connection(threading.Thread):
+	active_connection = True
+	current_user = ''
+	target_user = ''
+	def __init__(self, conn, client_address):
+		global messages
+		threading.Thread.__init__(self)
+		self.conn = conn
+		self.client_address = client_address 
+		print('Connection from: {}'.format(client_address))
+		try:
+			if self.conn.recv(4096).decode() == 'INIT':
+				print('incoming "INIT" message. Sending WHO')
+				self.conn.sendall('WHO'.encode())
+				data = self.conn.recv(4096).decode()
+				self.current_user = data
+				if self.current_user not in messages:
+					messages[data] = {}
+				print(data)
 			else:
-				saveMessage(data)
-	finally:
-		connection.close()
+				print('incorrect init message. Dropping connection')
+				self.conn.close()
+				self.active_connection = False
+		except socket.error as e:
+			print('Socket.error: {}'.format(e))
+			self.conn.close()
+        
+	def run(self):
+		global messages
+		if self.active_connection:
+			if self.target_user:
+				self.readMessage()
+			else:
+				try:
+					self.conn.sendall('TARGET'.encode())
+					data = self.conn.recv(4096).decode()
+					if data: 
+						self.target_user = data
+						print(messages[self.current_user])						
+						print(messages, data, self.target_user, self.current_user)
+						if self.target_user not in messages[self.current_user]:
+							messages[self.current_user][self.target_user] = []
+						self.conn.sendall('READY'.encode())
+						Message(self.conn, self.current_user).start()
+						self.readMessage()
+					else:
+						print('Closing connection')
+						self.conn.close()
+				except socket.error as e:
+					print('Socket.error: {}'.format(e))
+					self.conn.close()
+
+	def readMessage(self):
+		global messages
+		try:
+			while True:
+				data = self.conn.recv(4096).decode()
+				if not data: break
+				messages[self.current_user][self.target_user].append(data)
+				print(data)
+				
+		except socket.error as e:
+			print(e)
+		finally:
+			self.conn.close()
+
+
+S = Server()
+S.listenForConnections()
+            
