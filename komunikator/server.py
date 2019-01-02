@@ -4,6 +4,7 @@ import threading
 import time
 
 messages = {}
+active_users = []
 
 class Server():
 	def __init__(self, server_address = '192.168.1.251', server_port = 10000):
@@ -30,14 +31,15 @@ class Message(threading.Thread):
 	def run(self):
 		while True:
 			if self.conn.fileno() == -1: break
-			print('in message:',messages, self.conn)
-			
+			print(messages, active_users)
+			threadLock.acquire()			
 			for user in messages:
 				if self.current_user in messages[user]:
 					for message in messages[user][self.current_user]:
 						print('Sendind message from {} to {}'.format(user, self.current_user))
-						self.conn.sendall((message+'\n').encode())
+						self.conn.sendall((message).encode())
 					messages[user][self.current_user]=[]
+			threadLock.release()
 			time.sleep(1)
 
 class Connection(threading.Thread):
@@ -45,7 +47,7 @@ class Connection(threading.Thread):
 	current_user = ''
 	target_user = ''
 	def __init__(self, conn, client_address):
-		global messages
+		global messages, active_users
 		threading.Thread.__init__(self)
 		self.conn = conn
 		self.client_address = client_address 
@@ -56,8 +58,10 @@ class Connection(threading.Thread):
 				self.conn.sendall('WHO'.encode())
 				data = self.conn.recv(4096).decode()
 				self.current_user = data
-				if self.current_user not in messages:
-					messages[data] = {}
+				threadLock.acquire()
+				if self.current_user not in messages: messages[data] = {}
+				if self.current_user not in active_users: active_users.append(self.current_user)
+				threadLock.release()
 				print(data)
 			else:
 				print('incorrect init message. Dropping connection')
@@ -68,7 +72,7 @@ class Connection(threading.Thread):
 			self.conn.close()
         
 	def run(self):
-		global messages
+		global messages, active_users
 		if self.active_connection:
 			if self.target_user:
 				self.readMessage()
@@ -78,10 +82,10 @@ class Connection(threading.Thread):
 					data = self.conn.recv(4096).decode()
 					if data: 
 						self.target_user = data
-						print(messages[self.current_user])						
-						print(messages, data, self.target_user, self.current_user)
+						threadLock.acquire()
 						if self.target_user not in messages[self.current_user]:
 							messages[self.current_user][self.target_user] = []
+						threadLock.release()
 						self.conn.sendall('READY'.encode())
 						Message(self.conn, self.current_user).start()
 						self.readMessage()
@@ -90,23 +94,27 @@ class Connection(threading.Thread):
 						self.conn.close()
 				except socket.error as e:
 					print('Socket.error: {}'.format(e))
+					active_users.remove(self.current_user)
 					self.conn.close()
 
 	def readMessage(self):
-		global messages
+		global messages, current_user
 		try:
 			while True:
 				data = self.conn.recv(4096).decode()
 				if not data: break
+				threadLock.acquire()
 				messages[self.current_user][self.target_user].append(data)
+				threadLock.release()
 				print(data)
 				
 		except socket.error as e:
 			print(e)
 		finally:
+			active_users.remove(self.current_user)
 			self.conn.close()
 
-
+threadLock = threading.Lock()
 S = Server()
 S.listenForConnections()
             
