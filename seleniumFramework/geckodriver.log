@@ -1,0 +1,109 @@
+1550598108102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l5iICaXEfeMO"
+1550598108512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550598108512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:24242): Gtk-WARNING **: 18:41:48.795: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24242): Gtk-WARNING **: 18:41:48.795: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1550598111227	Marionette	INFO	Listening on port 33923
+1550598111525	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24378): dconf-WARNING **: 18:41:59.700: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+[Parent 24242, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 24242, Gecko_IOThread] WARNING: pipe error (71): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550598131814	Marionette	INFO	Stopped listening on port 33923
+1550599097197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.p62LqMS7ZVgj"
+1550599097609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550599097609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:25432): Gtk-WARNING **: 18:58:17.890: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25432): Gtk-WARNING **: 18:58:17.890: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1550599099545	Marionette	INFO	Listening on port 38663
+1550599099618	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25581): dconf-WARNING **: 18:58:27.418: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXSf88969ee93b4c433d1d9a3687d2211361&t_page=www_bankier_pl&wtop=https%3A%2F%2Fwww.bankier.pl%2F&cId=onnContainer, line 1335: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXSf88969ee93b4c433d1d9a3687d2211361&t_page=www_bankier_pl&wtop=https%3A%2F%2Fwww.bankier.pl%2F&cId=onnContainer, line 1346: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXSf88969ee93b4c433d1d9a3687d2211361&t_page=www_bankier_pl&wtop=https%3A%2F%2Fwww.bankier.pl%2F&cId=onnContainer, line 1368: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXSf88969ee93b4c433d1d9a3687d2211361&t_page=www_bankier_pl&wtop=https%3A%2F%2Fwww.bankier.pl%2F&cId=onnContainer, line 1346: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-P5M5K3V&t=gtm5&cid=1830415723.1550599825, line 96: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXSf88969ee93b4c433d1d9a3687d2211361&t_page=www_bankier_pl&wtop=https%3A%2F%2Fwww.bankier.pl%2F&cId=onnContainer, line 1335: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-P5M5K3V&t=gtm5&cid=1830415723.1550599825, line 96: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXS002ac1b56aa0e72218eb3413cd11b49b1&t_page=wiadomosc_czerwien_na_gpw_wystrzal_ursusa_i_brastera_7643390_html&wtop=https%3A%2F%2Fwww.bankier.pl%2Fwiadomosc%2FCzerwien-na-GPW-Wystrzal-Ursusa-i-Brastera-7643390.html&cId=onnContainer, line 1335: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXS002ac1b56aa0e72218eb3413cd11b49b1&t_page=wiadomosc_czerwien_na_gpw_wystrzal_ursusa_i_brastera_7643390_html&wtop=https%3A%2F%2Fwww.bankier.pl%2Fwiadomosc%2FCzerwien-na-GPW-Wystrzal-Ursusa-i-Brastera-7643390.html&cId=onnContainer, line 1346: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXS002ac1b56aa0e72218eb3413cd11b49b1&t_page=wiadomosc_czerwien_na_gpw_wystrzal_ursusa_i_brastera_7643390_html&wtop=https%3A%2F%2Fwww.bankier.pl%2Fwiadomosc%2FCzerwien-na-GPW-Wystrzal-Ursusa-i-Brastera-7643390.html&cId=onnContainer, line 1368: unreachable code after return statement
+JavaScript warning: https://video7.onnetwork.tv/frame82.php?mid=MCwxNng5LDMsMCw2ODcsNTYwLDEsMCwxLDAsMCwwLDEsMCwxLDEsMCwwLDMsMCwwLDAsMCwwLDA=&preview=0&iid=0&e=1&id=ffEXS002ac1b56aa0e72218eb3413cd11b49b1&t_page=wiadomosc_czerwien_na_gpw_wystrzal_ursusa_i_brastera_7643390_html&wtop=https%3A%2F%2Fwww.bankier.pl%2Fwiadomosc%2FCzerwien-na-GPW-Wystrzal-Ursusa-i-Brastera-7643390.html&cId=onnContainer, line 1346: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-P5M5K3V&t=gtm5&cid=1830415723.1550599825, line 96: unreachable code after return statement
+JavaScript warning: https://joemonster.org/js/common-revisionb2b3fc9f823092fad89b55ae7f54400e.js, line 6: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://nextclick.pl/widget/widget.advertisement.1.js, line 1: TypeError: this.item is null
+JavaScript warning: https://demis.awangarda.nscontext.eu/?masterId=mi16906f7f5d3f473257b3a44500, line 30: unreachable code after return statement
+JavaScript warning: https://joemonster.org/js/common-revisionb2b3fc9f823092fad89b55ae7f54400e.js, line 6: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://prd-header-biding.vda.netsprint.pl/js/tools.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+
+(/usr/lib/firefox/firefox:26543): dconf-WARNING **: 19:15:11.772: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: https://static.adsafeprotected.com/main.17.4.169.js, line 224: TypeError: b is undefined
+JavaScript warning: https://joemonster.org/js/common-revisionb2b3fc9f823092fad89b55ae7f54400e.js, line 6: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://joemonster.org/js/common-revisionb2b3fc9f823092fad89b55ae7f54400e.js, line 6: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 26402, Chrome_ChildThread] WARNING: pipe error (3): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25432, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25432, Gecko_IOThread] WARNING: pipe error (71): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550601896822	Marionette	INFO	Stopped listening on port 38663
+1550607752336	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g0OOJTqFyoH9"
+1550607752750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550607752750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:27715): Gtk-WARNING **: 21:22:33.035: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27715): Gtk-WARNING **: 21:22:33.035: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1550607754385	Marionette	INFO	Listening on port 32941
+1550607754464	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27715, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 27715, Gecko_IOThread] WARNING: pipe error (85): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550607821982	Marionette	INFO	Stopped listening on port 32941
+1550607865237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zNdCyC7U7PJ9"
+1550607865647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550607865647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:28662): Gtk-WARNING **: 21:24:25.947: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28662): Gtk-WARNING **: 21:24:25.947: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1550607867291	Marionette	INFO	Listening on port 38029
+1550607867352	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 28662, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550607912017	Marionette	INFO	Stopped listening on port 38029
+1550607916894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.73mPoq4xNfKF"
+1550607917305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550607917306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:29597): Gtk-WARNING **: 21:25:17.587: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:29597): Gtk-WARNING **: 21:25:17.587: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1550607918917	Marionette	INFO	Listening on port 42061
+1550607919005	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 29597, Gecko_IOThread] WARNING: pipe error (71): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550607975954	Marionette	INFO	Stopped listening on port 42061
