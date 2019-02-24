@@ -1,9 +1,12 @@
-from selenium.webdriver.common.by import By
 from base.selenium_driver import SeleniumDriver
+from utilities.custom_logger import customLogger as cl
+from base.basepage import BasePage
+import logging
 
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
 
+    log = cl(logging.DEBUG)
     _login_link = 'Login'
     _email_field = 'user_email'
     _password_field = 'user_password'
@@ -12,18 +15,6 @@ class LoginPage(SeleniumDriver):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-
-    # def get_login_link(self):
-    #     return self.driver.find_element(By.LINK_TEXT, self._login_link)
-    #
-    # def get_email_field(self):
-    #     return self.driver.find_element(By.ID, self._email_field)
-    #
-    # def get_password_field(self):
-    #     return self.driver.find_element(By.ID, self._password_field)
-    #
-    # def get_login_button(self):
-    #     return self.driver.find_element(By.NAME, self._login_button)
 
     def click_login_link(self):
         self.element_click(self._login_link, locator_type='link')
@@ -37,9 +28,21 @@ class LoginPage(SeleniumDriver):
     def click_login_button(self):
         self.element_click(self._login_button, locator_type='name')
 
-    def login(self, user_name, password):
+    def login(self, user_name='', password=''):
         self.click_login_link()
         self.type_email_field(user_name)
         self.type_password(password)
         self.click_login_button()
 
+    def verify_successful_login(self):
+        user_avatar_present = self.is_element_present("//img[@class='gravatar']", locator_type='xpath')
+
+        return user_avatar_present
+
+    def verify_login_failed(self):
+        invalid_credential_message_presence = self.is_element_present(
+            "//div[contains(text(),'Invalid email or password.')]", locator_type='xpath')
+        return invalid_credential_message_presence
+
+    def verify_title(self):
+        return self.verifyPageTitle("Let's Kode Ita")

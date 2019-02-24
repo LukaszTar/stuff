@@ -1,0 +1,24 @@
+20190224T19:07:46.758 - Status - INFO: ### VERIFICATION SUCCESSFUL :: ## INVALID LOGIN VERIFICATION ##
+20190224T19:07:46.758 - Status - INFO: INVALID LOGIN ### VERIFICATION PASSED ## INVALID LOGIN VERIFICATION ##
+20190224T19:07:52.987 - Status - INFO: ### VERIFICATION FAILED :: TITLE VERIFICATION
+20190224T19:07:53.178 - Status - INFO: Screenshot: /home/lukasz/PycharmProjects/seleniumFramework/base/../screenshots/TITLE VERIFICATION.20190224T19:07:52:988052.png saved
+20190224T19:07:53.252 - Status - INFO: ### VERIFICATION SUCCESSFUL :: ## LOGIN VERIFICATION ##
+20190224T19:07:53.252 - Status - ERROR: LOGIN VERIFICATION ### VERIFICATION FAILED ## LOGIN VERIFICATION ##
+ LoginPage - INFO: Clicked on locator: commit locatorType name
+20190224T19:07:46.696 - LoginPage - INFO: Element Found with locator //div[contains(text(),'Invalid email or password.')] locatorType: xpath
+20190224T19:07:46.696 - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+20190224T19:07:46.757 - LoginPage - INFO: Element appeared on the web page
+20190224T19:07:46.758 - LoginPage - INFO: Element found with locator //div[contains(text(),'Invalid email or password.')] locatorType: xpath
+20190224T19:07:49.792 - LoginPage - INFO: Element not Found with locator Login locatorType: link
+20190224T19:07:49.792 - LoginPage - ERROR: cannot click on locator: Login locatorType link
+20190224T19:07:49.823 - LoginPage - INFO: Element Found with locator user_email locatorType: id
+20190224T19:07:49.868 - LoginPage - INFO: data send to locator: user_email locatorType id
+20190224T19:07:49.874 - LoginPage - INFO: Element Found with locator user_password locatorType: id
+20190224T19:07:49.897 - LoginPage - INFO: data send to locator: user_password locatorType id
+20190224T19:07:49.903 - LoginPage - INFO: Element Found with locator commit locatorType: name
+20190224T19:07:52.970 - LoginPage - INFO: Clicked on locator: commit locatorType name
+20190224T19:07:52.972 - LoginPage - ERROR: Failed to get page title
+20190224T19:07:53.194 - LoginPage - INFO: Element Found with locator //img[@class='gravatar'] locatorType: xpath
+20190224T19:07:53.194 - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+20190224T19:07:53.252 - LoginPage - INFO: Element appeared on the web page
+20190224T19:07:53.252 - LoginPage - INFO: Element found with locator //img[@class='gravatar'] locatorType: xpath
