@@ -1,5 +1,6 @@
 import pytest
-from selenium import webdriver
+from pages.home.login_page import LoginPage
+from base.webdriverfactory import WebDriverFactory
 
 
 @pytest.yield_fixture()
@@ -12,22 +13,13 @@ def setUp():
 @pytest.yield_fixture(scope="class")
 def oneTimeSetUp(request, browser):
     print("Running one time setUp")
-    if browser == 'firefox':
-        base_url = 'https://letskodeit.teachable.com/'
-        driver = webdriver.Firefox()
-        driver.maximize_window()
-        driver.implicitly_wait(3)
-        driver.get(base_url)
-        print("Running tests on FF")
-    else:
-        base_url = 'https://letskodeit.teachable.com/'
-        driver = webdriver.Chrome()
-        driver.get(base_url)
-        print("Running tests on chrome")
+    wdf = WebDriverFactory(browser)
+    driver = wdf.getWebDriverInstance()
+    lp = LoginPage(driver)
+    lp.login("test@email.com", "abcabc")
 
     if request.cls is not None:
         request.cls.driver = driver
-
     yield driver
     driver.quit()
     print("Running one time tearDown")

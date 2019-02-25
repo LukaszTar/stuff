@@ -722,3 +722,493 @@ JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbe
 1551031656801	Marionette	WARN	TLS certificate errors will be ignored for this session
 1551031673262	Marionette	INFO	Stopped listening on port 39801
 [Parent 25763, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551124301350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HRx5HLgxfe6j"
+1551124301798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551124301799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:5036): Gtk-WARNING **: 20:51:42.102: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5036): Gtk-WARNING **: 20:51:42.102: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551124303457	Marionette	INFO	Listening on port 37851
+1551124303561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551124341262	Marionette	INFO	Stopped listening on port 37851
+[Parent 5036, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551124457334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rjkw3fJ4rhKO"
+1551124457745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551124457745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:5998): Gtk-WARNING **: 20:54:18.034: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5998): Gtk-WARNING **: 20:54:18.034: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551124459354	Marionette	INFO	Listening on port 42215
+1551124459448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+1551124495368	Marionette	INFO	Stopped listening on port 42215
+[Parent 5998, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 5998, Gecko_IOThread] WARNING: pipe error (71): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125058293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JfdZFZ3zeeBm"
+1551125058703	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125058703	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:7080): Gtk-WARNING **: 21:04:19.007: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:7080): Gtk-WARNING **: 21:04:19.008: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125060298	Marionette	INFO	Listening on port 33317
+1551125060403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551125101462	Marionette	INFO	Stopped listening on port 33317
+[Parent 7080, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125243268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.27ztXud96tlE"
+1551125243689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125243689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:8050): Gtk-WARNING **: 21:07:23.998: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8050): Gtk-WARNING **: 21:07:23.998: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125245289	Marionette	INFO	Listening on port 41877
+1551125245379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551125280458	Marionette	INFO	Stopped listening on port 41877
+[Parent 8050, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125428277	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7TV6bKz1243k"
+1551125428689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125428690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:9028): Gtk-WARNING **: 21:10:28.999: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9028): Gtk-WARNING **: 21:10:28.999: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125430415	Marionette	INFO	Listening on port 34991
+1551125430547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551125477167	Marionette	INFO	Stopped listening on port 34991
+[Parent 9028, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 9028, Gecko_IOThread] WARNING: pipe error (93): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125612481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ta0GWgxQmVk8"
+1551125612886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125612886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:9987): Gtk-WARNING **: 21:13:33.198: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9987): Gtk-WARNING **: 21:13:33.198: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125614524	Marionette	INFO	Listening on port 32841
+1551125614609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551125651040	Marionette	INFO	Stopped listening on port 32841
+[Parent 9987, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125743403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ClZgMAmfsRZ8"
+1551125743841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125743841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:10943): Gtk-WARNING **: 21:15:44.130: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:10943): Gtk-WARNING **: 21:15:44.130: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125745451	Marionette	INFO	Listening on port 42811
+1551125745529	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 10943, Gecko_IOThread] WARNING: pipe error (107): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 10943, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551125770106	Marionette	INFO	Stopped listening on port 42811
+1551125838755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CNghLxzKUewx"
+1551125839174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551125839174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:11891): Gtk-WARNING **: 21:17:19.469: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11891): Gtk-WARNING **: 21:17:19.469: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551125840896	Marionette	INFO	Listening on port 41411
+1551125840983	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12065): dconf-WARNING **: 21:17:27.988: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551125887726	Marionette	INFO	Stopped listening on port 41411
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 11891, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551126785018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lT5e0y26W0fs"
+1551126785439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551126785439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:13066): Gtk-WARNING **: 21:33:05.753: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13066): Gtk-WARNING **: 21:33:05.753: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551126787171	Marionette	INFO	Listening on port 38155
+1551126787239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 13066, Gecko_IOThread] WARNING: pipe error (93): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551126820609	Marionette	INFO	Stopped listening on port 38155
+1551126953080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.APYyVHDhv6Vi"
+1551126953504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551126953504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:14029): Gtk-WARNING **: 21:35:53.793: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14029): Gtk-WARNING **: 21:35:53.793: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551126955144	Marionette	INFO	Listening on port 38973
+1551126955211	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14203): dconf-WARNING **: 21:36:03.121: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127010705	Marionette	INFO	Stopped listening on port 38973
+[Parent 14029, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127068456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I6WgeGuEQf0V"
+1551127068882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127068882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:14990): Gtk-WARNING **: 21:37:49.187: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14990): Gtk-WARNING **: 21:37:49.187: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127070590	Marionette	INFO	Listening on port 34103
+1551127070743	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15138): dconf-WARNING **: 21:37:57.891: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127119507	Marionette	INFO	Stopped listening on port 34103
+[Parent 14990, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127128958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YV3PfWKLExLK"
+1551127129400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127129401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:15917): Gtk-WARNING **: 21:38:49.692: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15917): Gtk-WARNING **: 21:38:49.692: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127131025	Marionette	INFO	Listening on port 35495
+1551127131090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127169417	Marionette	INFO	Stopped listening on port 35495
+[Parent 15917, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1551127244226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A8RCLSQNp6eZ"
+1551127244656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127244656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:16842): Gtk-WARNING **: 21:40:44.950: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16842): Gtk-WARNING **: 21:40:44.950: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127246320	Marionette	INFO	Listening on port 33029
+1551127246341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127285907	Marionette	INFO	Stopped listening on port 33029
+1551127316767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6gh52yRYD7uc"
+1551127317198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127317198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:17761): Gtk-WARNING **: 21:41:57.502: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17761): Gtk-WARNING **: 21:41:57.502: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127318843	Marionette	INFO	Listening on port 42189
+1551127318887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127358324	Marionette	INFO	Stopped listening on port 42189
+[Parent 17761, Gecko_IOThread] WARNING: pipe error: Przerwany potok: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Parent 17761, Gecko_IOThread] WARNING: pipe error (85): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127486935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ldzPMnIHzm97"
+1551127487371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127487371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:18724): Gtk-WARNING **: 21:44:47.670: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18724): Gtk-WARNING **: 21:44:47.670: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127489031	Marionette	INFO	Listening on port 43429
+1551127489048	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18893): dconf-WARNING **: 21:44:56.564: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127526336	Marionette	INFO	Stopped listening on port 43429
+[Parent 18724, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127609007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.22KvCTEiT2R6"
+1551127609437	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127609437	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:19680): Gtk-WARNING **: 21:46:49.736: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19680): Gtk-WARNING **: 21:46:49.736: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127611099	Marionette	INFO	Listening on port 44589
+1551127611132	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19833): dconf-WARNING **: 21:46:56.828: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127642529	Marionette	INFO	Stopped listening on port 44589
+[Parent 19680, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127689290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vEopg2QccV9K"
+1551127689720	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127689721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:20620): Gtk-WARNING **: 21:48:10.026: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:20620): Gtk-WARNING **: 21:48:10.026: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127691361	Marionette	INFO	Listening on port 33931
+1551127691424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551127736833	Marionette	INFO	Stopped listening on port 33931
+[Parent 20620, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551127971455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7srAMYW8ll3Y"
+1551127971885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551127971885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:21625): Gtk-WARNING **: 21:52:52.189: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21625): Gtk-WARNING **: 21:52:52.189: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551127974092	Marionette	INFO	Listening on port 44507
+1551127974234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551128023991	Marionette	INFO	Stopped listening on port 44507
+[Parent 21625, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551128130578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lqyt4UIKMXkt"
+1551128130987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551128130987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:22587): Gtk-WARNING **: 21:55:31.276: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22587): Gtk-WARNING **: 21:55:31.276: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551128132601	Marionette	INFO	Listening on port 45637
+1551128132688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551128177562	Marionette	INFO	Stopped listening on port 45637
+[Parent 22587, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551128764397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X9xzpzaY7Z9W"
+1551128764817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551128764818	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:23608): Gtk-WARNING **: 22:06:05.101: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23608): Gtk-WARNING **: 22:06:05.101: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551128766438	Marionette	INFO	Listening on port 45487
+1551128766518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551128801484	Marionette	INFO	Stopped listening on port 45487
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 23608, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551128834825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YpbWHJzFfPK1"
+1551128835247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551128835248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:24509): Gtk-WARNING **: 22:07:15.532: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24509): Gtk-WARNING **: 22:07:15.532: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551128836811	Marionette	INFO	Listening on port 42853
+1551128836846	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24657): dconf-WARNING **: 22:07:21.588: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Brak dostępu
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+1551128865864	Marionette	INFO	Stopped listening on port 42853
+[Parent 24509, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551128959134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.05hBEBIAFHoh"
+1551128959551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551128959551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:25441): Gtk-WARNING **: 22:09:19.835: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25441): Gtk-WARNING **: 22:09:19.835: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551128961671	Marionette	INFO	Listening on port 39405
+1551128961814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+1551128994583	Marionette	INFO	Stopped listening on port 39405
+[Parent 25441, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551129034126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Rz7gDg6qNBjv"
+1551129034540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551129034540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:26373): Gtk-WARNING **: 22:10:34.833: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:26373): Gtk-WARNING **: 22:10:34.833: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551129036620	Marionette	INFO	Listening on port 34887
+1551129036642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+1551129071029	Marionette	INFO	Stopped listening on port 34887
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 26373, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 26373, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551129570102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PyizLh7N86oT"
+1551129570519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551129570519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:27429): Gtk-WARNING **: 22:19:30.809: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27429): Gtk-WARNING **: 22:19:30.809: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551129572317	Marionette	INFO	Listening on port 44399
+1551129572490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-6f8a01fbeec6b2e1c5fef2c724da0ce8.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551129606963	Marionette	INFO	Stopped listening on port 44399
+[Parent 27429, Gecko_IOThread] WARNING: pipe error (93): Połączenie zerwane przez drugą stronę: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349

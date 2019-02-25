@@ -1,24 +1,36 @@
-20190224T19:07:46.758 - Status - INFO: ### VERIFICATION SUCCESSFUL :: ## INVALID LOGIN VERIFICATION ##
-20190224T19:07:46.758 - Status - INFO: INVALID LOGIN ### VERIFICATION PASSED ## INVALID LOGIN VERIFICATION ##
-20190224T19:07:52.987 - Status - INFO: ### VERIFICATION FAILED :: TITLE VERIFICATION
-20190224T19:07:53.178 - Status - INFO: Screenshot: /home/lukasz/PycharmProjects/seleniumFramework/base/../screenshots/TITLE VERIFICATION.20190224T19:07:52:988052.png saved
-20190224T19:07:53.252 - Status - INFO: ### VERIFICATION SUCCESSFUL :: ## LOGIN VERIFICATION ##
-20190224T19:07:53.252 - Status - ERROR: LOGIN VERIFICATION ### VERIFICATION FAILED ## LOGIN VERIFICATION ##
- LoginPage - INFO: Clicked on locator: commit locatorType name
-20190224T19:07:46.696 - LoginPage - INFO: Element Found with locator //div[contains(text(),'Invalid email or password.')] locatorType: xpath
-20190224T19:07:46.696 - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
-20190224T19:07:46.757 - LoginPage - INFO: Element appeared on the web page
-20190224T19:07:46.758 - LoginPage - INFO: Element found with locator //div[contains(text(),'Invalid email or password.')] locatorType: xpath
-20190224T19:07:49.792 - LoginPage - INFO: Element not Found with locator Login locatorType: link
-20190224T19:07:49.792 - LoginPage - ERROR: cannot click on locator: Login locatorType link
-20190224T19:07:49.823 - LoginPage - INFO: Element Found with locator user_email locatorType: id
-20190224T19:07:49.868 - LoginPage - INFO: data send to locator: user_email locatorType id
-20190224T19:07:49.874 - LoginPage - INFO: Element Found with locator user_password locatorType: id
-20190224T19:07:49.897 - LoginPage - INFO: data send to locator: user_password locatorType id
-20190224T19:07:49.903 - LoginPage - INFO: Element Found with locator commit locatorType: name
-20190224T19:07:52.970 - LoginPage - INFO: Clicked on locator: commit locatorType name
-20190224T19:07:52.972 - LoginPage - ERROR: Failed to get page title
-20190224T19:07:53.194 - LoginPage - INFO: Element Found with locator //img[@class='gravatar'] locatorType: xpath
-20190224T19:07:53.194 - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
-20190224T19:07:53.252 - LoginPage - INFO: Element appeared on the web page
-20190224T19:07:53.252 - LoginPage - INFO: Element found with locator //img[@class='gravatar'] locatorType: xpath
+20190225T22:20:06.961 - Status - INFO: ### VERIFICATION SUCCESSFUL :: ## ENROLLMENT_VERIFICATION ##
+20190225T22:20:06.961 - Status - INFO: ENROLLMENT_VERIFICATION ### VERIFICATION PASSED ## ENROLLMENT_VERIFICATION ##
+42.676 - RegisterCoursesPage - INFO: Element Found with locator search-courses locatorType: id
+20190225T22:19:42.731 - RegisterCoursesPage - INFO: Sent data on element with locator: search-courses locatorType: id
+20190225T22:19:42.736 - RegisterCoursesPage - INFO: Element Found with locator search-courses locatorType: id
+20190225T22:19:42.767 - RegisterCoursesPage - INFO: ENTER send to element with locator: search-courses locatorType: id
+20190225T22:19:42.767 - RegisterCoursesPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+20190225T22:19:43.843 - RegisterCoursesPage - INFO: Element appeared on the web page
+20190225T22:19:43.873 - RegisterCoursesPage - INFO: Element Found with locator course-listing-title locatorType: class
+20190225T22:19:44.169 - RegisterCoursesPage - INFO: Clicked on element with locator: course-listing-title locatorType: class
+20190225T22:19:45.685 - RegisterCoursesPage - INFO: Element Found with locator enroll-button-top locatorType: id
+20190225T22:19:50.766 - RegisterCoursesPage - INFO: Clicked on element with locator: enroll-button-top locatorType: id
+20190225T22:19:53.887 - RegisterCoursesPage - INFO: Switched to frame with locator: __privateStripeFrame4
+20190225T22:19:53.892 - RegisterCoursesPage - INFO: Element Found with locator cardnumber locatorType: name
+20190225T22:19:54.003 - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+20190225T22:19:54.024 - RegisterCoursesPage - INFO: Switched to default frame
+20190225T22:19:57.231 - RegisterCoursesPage - INFO: Switched to frame with locator: __privateStripeFrame5
+20190225T22:19:57.236 - RegisterCoursesPage - INFO: Element Found with locator exp-date locatorType: name
+20190225T22:19:57.281 - RegisterCoursesPage - INFO: Sent data on element with locator: exp-date locatorType: name
+20190225T22:19:57.298 - RegisterCoursesPage - INFO: Switched to default frame
+20190225T22:20:00.372 - RegisterCoursesPage - INFO: Switched to frame with locator: __privateStripeFrame6
+20190225T22:20:00.380 - RegisterCoursesPage - INFO: Element Found with locator cvc locatorType: name
+20190225T22:20:00.417 - RegisterCoursesPage - INFO: Sent data on element with locator: cvc locatorType: name
+20190225T22:20:00.432 - RegisterCoursesPage - INFO: Switched to default frame
+20190225T22:20:03.485 - RegisterCoursesPage - INFO: Switched to frame with locator: __privateStripeFrame7
+20190225T22:20:03.494 - RegisterCoursesPage - INFO: Element Found with locator postal locatorType: name
+20190225T22:20:03.543 - RegisterCoursesPage - INFO: Sent data on element with locator: postal locatorType: name
+20190225T22:20:03.560 - RegisterCoursesPage - INFO: Switched to default frame
+20190225T22:20:03.601 - RegisterCoursesPage - INFO: Element Found with locator agreed_to_terms_checkbox locatorType: id
+20190225T22:20:03.851 - RegisterCoursesPage - INFO: Clicked on element with locator: agreed_to_terms_checkbox locatorType: id
+20190225T22:20:03.856 - RegisterCoursesPage - INFO: Element Found with locator confirm-purchase locatorType: id
+20190225T22:20:04.096 - RegisterCoursesPage - INFO: Clicked on element with locator: confirm-purchase locatorType: id
+20190225T22:20:04.097 - RegisterCoursesPage - INFO: Waiting for maximum :: 10 :: seconds for element to be visible
+20190225T22:20:06.935 - RegisterCoursesPage - INFO: Element appeared on the web page
+20190225T22:20:06.941 - RegisterCoursesPage - INFO: Element Found with locator cc__error locatorType: class
+20190225T22:20:06.961 - RegisterCoursesPage - INFO: Element is displayed with locator: cc__error locatorType: class
