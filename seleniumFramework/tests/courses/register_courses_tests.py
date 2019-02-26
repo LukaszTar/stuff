@@ -18,5 +18,4 @@ class RegisterCoursesTests(unittest.TestCase):
         self.courses.select_course_to_enroll()
         self.courses.enroll_course('5169606510095854', '1220', '234', '90241')
         status = self.courses.verify_enroll_failed()
-        print(status)
         self.ts.mark_final('ENROLLMENT_VERIFICATION', status, '## ENROLLMENT_VERIFICATION ##')

@@ -1,4 +1,4 @@
-from base.selenium_driver import SeleniumDriver
+from pages.home.navigation_page import Navigate
 from utilities.custom_logger import customLogger as cl
 from base.basepage import BasePage
 import logging
@@ -15,6 +15,7 @@ class LoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        self.nav = Navigate(driver)
 
     def click_login_link(self):
         self.element_click(self._login_link, locator_type='link')
@@ -45,4 +46,8 @@ class LoginPage(BasePage):
         return invalid_credential_message_presence
 
     def verify_title(self):
-        return self.verifyPageTitle("Let's Kode Ita")
+        return self.verifyPageTitle("Let's Kode It")
+
+    def logout(self):
+        self.nav.navigate_to_user_icon()
+        self.element_click("//a[@href='/sign_out']", locator_type='xpath')

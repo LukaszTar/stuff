@@ -22,6 +22,7 @@ class LoginTest(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_invalid_credentials(self):
+        self.lt.logout()
         self.lt.login()
         result = self.lt.verify_login_failed()
         self.ts.mark_final('INVALID LOGIN', result, '## INVALID LOGIN VERIFICATION ##')

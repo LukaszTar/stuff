@@ -242,3 +242,11 @@ class SeleniumDriver:
         except:
             self.log.info("Cannot switched to default frame")
 
+    def previous_page(self):
+        try:
+            self.driver.back()
+            self.log.info('Navigated one page back')
+        except:
+            self.log.info('Could not navigate one page back')
+
+
