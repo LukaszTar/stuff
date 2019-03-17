@@ -1,0 +1,1272 @@
+20190317T12:15:29.817 - SeleniumDriver - INFO: Element found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:30.103 - SeleniumDriver - INFO: Mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:30.118 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:30.156 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is clicable
+20190317T12:15:30.161 - SeleniumDriver - INFO: Element found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:30.914 - SeleniumDriver - INFO: Clicked on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:30.932 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:30.932 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:30.938 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:31.190 - SeleniumDriver - INFO: Keys qwer 123 !@# send to element with locator: lastName and locator type: id
+20190317T12:15:31.194 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:31.194 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:31.198 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:31.198 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:31.201 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:31.483 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:31.495 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:31.495 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:31.676 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:31:495747.png saved
+20190317T12:15:31.677 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:qwer 123 !@#, password:, email:, accept_terms:
+
+
+20190317T12:15:31.697 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:31.711 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:31.744 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:31.754 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:31.772 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:31.773 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:31.773 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:33.792 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:33.804 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:33.804 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:33.843 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:33.843 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:33.847 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:33.847 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:15:33.851 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:33.851 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:33.855 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:33.855 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:33.859 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:34.126 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:34.136 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:34.173 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath visible
+20190317T12:15:34.173 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Nazwisko
+20190317T12:15:34.174 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:15:34.178 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:34.186 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:34.194 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:34.202 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:34.211 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:34.211 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:34.211 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:36.226 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:36.244 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:36.244 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:36.256 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:36.257 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:36.268 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:36.378 - SeleniumDriver - INFO: Keys !@#$%^ send to element with locator: lastName and locator type: id
+20190317T12:15:36.382 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:36.382 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:36.385 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:36.385 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:36.388 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:36.631 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:36.642 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:36.684 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath visible
+20190317T12:15:36.684 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Nazwisko
+20190317T12:15:36.684 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:!@#$%^, password:, email:, accept_terms:
+
+
+20190317T12:15:36.688 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:36.695 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:36.707 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:36.715 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:36.724 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:36.724 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:36.724 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:38.742 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:38.765 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:38.765 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:38.783 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:38.783 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:38.801 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:38.949 - SeleniumDriver - INFO: Keys !@#qwe$%^ send to element with locator: lastName and locator type: id
+20190317T12:15:38.953 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:38.954 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:38.957 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:38.957 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:38.963 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:39.222 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:39.235 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:39.235 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:39.428 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:39:235970.png saved
+20190317T12:15:39.428 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:!@#qwe$%^, password:, email:, accept_terms:
+
+
+20190317T12:15:39.452 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:39.464 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:39.490 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:39.509 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:39.518 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:39.519 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:39.519 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:41.530 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:41.542 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:41.542 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:41.553 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:41.554 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:41.566 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:41.721 - SeleniumDriver - INFO: Keys qwe!@#qwe send to element with locator: lastName and locator type: id
+20190317T12:15:41.725 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:41.725 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:41.728 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:41.729 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:41.732 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:41.980 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:41.992 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:41.992 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:42.176 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:41:992739.png saved
+20190317T12:15:42.176 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:qwe!@#qwe, password:, email:, accept_terms:
+
+
+20190317T12:15:42.187 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:42.196 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:42.228 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:42.238 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:42.252 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:42.252 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:42.252 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:44.263 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:44.274 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:44.274 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:44.285 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:44.286 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:44.297 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:44.376 - SeleniumDriver - INFO: Keys 123456 send to element with locator: lastName and locator type: id
+20190317T12:15:44.379 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:44.379 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:44.384 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:44.384 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:44.387 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:44.621 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:44.633 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:44.687 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath visible
+20190317T12:15:44.688 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Nazwisko
+20190317T12:15:44.688 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:123456, password:, email:, accept_terms:
+
+
+20190317T12:15:44.692 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:44.699 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:44.711 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:44.719 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:44.727 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:44.727 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:44.727 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:46.742 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:46.753 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:46.754 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:46.794 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:46.794 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:46.798 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:46.939 - SeleniumDriver - INFO: Keys qwe123456 send to element with locator: lastName and locator type: id
+20190317T12:15:46.943 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:46.943 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:46.947 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:46.947 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:46.950 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:47.210 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:47.225 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:47.226 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:47.416 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:47:226669.png saved
+20190317T12:15:47.416 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:qwe123456, password:, email:, accept_terms:
+
+
+20190317T12:15:47.428 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:47.440 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:47.482 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:47.492 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:47.508 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:47.508 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:47.508 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:49.511 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:49.522 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:49.523 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:49.534 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:49.534 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:49.546 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:49.714 - SeleniumDriver - INFO: Keys 123qwe456 send to element with locator: lastName and locator type: id
+20190317T12:15:49.719 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:49.719 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:49.722 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:49.722 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:49.725 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:49.977 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:49.991 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:49.991 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:50.172 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:49:991710.png saved
+20190317T12:15:50.172 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:123qwe456, password:, email:, accept_terms:
+
+
+20190317T12:15:50.182 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:50.192 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:50.221 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:50.231 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:50.247 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:50.248 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:50.248 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:52.356 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:52.374 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:52.375 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:52.411 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:52.411 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:52.414 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:52.546 - SeleniumDriver - INFO: Keys 123456qwe send to element with locator: lastName and locator type: id
+20190317T12:15:52.556 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:52.556 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:52.561 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:52.561 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:52.565 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:52.822 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:52.834 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:52.835 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:52.983 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:52:835270.png saved
+20190317T12:15:52.983 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:123456qwe, password:, email:, accept_terms:
+
+
+20190317T12:15:52.994 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:53.001 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:53.031 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:53.040 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:53.054 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:53.054 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:53.054 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:55.060 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:55.072 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:55.072 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:55.084 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:55.085 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:15:55.097 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:55.242 - SeleniumDriver - INFO: Keys 123qwe!@# send to element with locator: lastName and locator type: id
+20190317T12:15:55.246 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:55.246 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:55.250 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:55.250 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:55.253 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:55.505 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:55.516 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj nazwisko.')] and locator type: xpath
+20190317T12:15:55.517 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Nazwisko
+20190317T12:15:55.667 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Nazwisko.20190317T12:15:55:517269.png saved
+20190317T12:15:55.667 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:123qwe!@#, password:, email:, accept_terms:
+
+
+20190317T12:15:55.675 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:55.682 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:55.708 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:55.725 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:55.735 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:55.735 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:55.735 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:15:57.833 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:15:57.844 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:57.844 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:15:57.855 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:57.999 - SeleniumDriver - INFO: Keys qwer 123 !@# send to element with locator: firstName and locator type: id
+20190317T12:15:58.002 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:58.002 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:15:58.007 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:58.007 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:15:58.011 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:58.011 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:15:58.014 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:58.247 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:15:58.259 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:15:58.260 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:15:58.404 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:15:58:260330.png saved
+20190317T12:15:58.404 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:qwer 123 !@#, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:15:58.412 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:15:58.434 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:15:58.450 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:15:58.458 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:15:58.468 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:58.468 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:15:58.468 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:00.571 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:00.582 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:00.583 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:00.593 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:00.594 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:00.605 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:00.605 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:00.616 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:00.616 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:00.627 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:00.627 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:00.635 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:00.883 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:00.895 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:00.931 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath visible
+20190317T12:16:00.931 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Imie
+20190317T12:16:00.931 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:00.934 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:00.941 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:00.948 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:00.956 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:00.964 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:00.964 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:00.965 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:02.990 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:03.001 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:03.002 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:03.013 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:03.094 - SeleniumDriver - INFO: Keys !@#$%^ send to element with locator: firstName and locator type: id
+20190317T12:16:03.097 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:03.097 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:03.101 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:03.101 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:03.104 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:03.104 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:03.107 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:03.339 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:03.350 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:03.388 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath visible
+20190317T12:16:03.389 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Imie
+20190317T12:16:03.389 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:!@#$%^, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:03.393 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:03.403 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:03.410 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:03.418 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:03.426 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:03.426 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:03.426 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:05.538 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:05.551 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:05.552 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:05.593 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:05.735 - SeleniumDriver - INFO: Keys !@#qwe$%^ send to element with locator: firstName and locator type: id
+20190317T12:16:05.738 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:05.739 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:05.743 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:05.743 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:05.747 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:05.747 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:05.750 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:06.008 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:06.021 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:06.022 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:06.162 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:06:022700.png saved
+20190317T12:16:06.162 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:!@#qwe$%^, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:06.170 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:06.197 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:06.214 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:06.223 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:06.232 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:06.232 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:06.233 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:08.339 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:08.348 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:08.348 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:08.351 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:08.480 - SeleniumDriver - INFO: Keys qwe!@#qwe send to element with locator: firstName and locator type: id
+20190317T12:16:08.484 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:08.484 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:08.487 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:08.487 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:08.490 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:08.490 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:08.495 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:08.744 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:08.755 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:08.755 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:08.903 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:08:756257.png saved
+20190317T12:16:08.903 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:qwe!@#qwe, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:08.911 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:08.940 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:08.948 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:08.954 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:08.969 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:08.969 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:08.969 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:11.073 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:11.085 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:11.085 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:11.096 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:11.179 - SeleniumDriver - INFO: Keys 123456 send to element with locator: firstName and locator type: id
+20190317T12:16:11.183 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:11.183 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:11.186 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:11.187 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:11.190 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:11.190 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:11.193 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:11.427 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:11.438 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:11.492 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath visible
+20190317T12:16:11.493 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Imie
+20190317T12:16:11.493 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:123456, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:11.497 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:11.509 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:11.516 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:11.523 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:11.532 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:11.532 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:11.532 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:13.543 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:13.555 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:13.555 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:13.592 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:13.729 - SeleniumDriver - INFO: Keys qwe123456 send to element with locator: firstName and locator type: id
+20190317T12:16:13.733 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:13.733 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:13.737 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:13.737 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:13.740 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:13.740 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:13.744 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:14.003 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:14.019 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:14.019 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:14.164 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:14:020060.png saved
+20190317T12:16:14.164 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:qwe123456, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:14.173 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:14.200 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:14.207 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:14.215 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:14.232 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:14.233 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:14.233 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:16.337 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:16.349 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:16.350 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:16.361 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:16.507 - SeleniumDriver - INFO: Keys 123qwe456 send to element with locator: firstName and locator type: id
+20190317T12:16:16.513 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:16.513 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:16.516 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:16.516 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:16.519 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:16.519 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:16.523 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:16.776 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:16.787 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:16.788 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:16.934 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:16:788397.png saved
+20190317T12:16:16.934 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:123qwe456, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:16.942 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:16.968 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:16.976 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:16.991 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:17.000 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:17.000 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:17.000 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:19.036 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:19.047 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:19.048 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:19.094 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:19.224 - SeleniumDriver - INFO: Keys 123456qwe send to element with locator: firstName and locator type: id
+20190317T12:16:19.234 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:19.234 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:19.239 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:19.239 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:19.244 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:19.244 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:19.248 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:19.504 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:19.518 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:19.519 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:19.664 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:19:519530.png saved
+20190317T12:16:19.665 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:123456qwe, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:19.673 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:19.701 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:19.709 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:19.717 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:19.734 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:19.734 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:19.734 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:21.747 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:21.758 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:21.759 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:21.777 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:21.923 - SeleniumDriver - INFO: Keys 123qwe!@# send to element with locator: firstName and locator type: id
+20190317T12:16:21.928 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:21.929 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:21.932 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:21.933 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:21.936 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:21.936 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:21.939 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:22.191 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:22.201 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj imię.')] and locator type: xpath
+20190317T12:16:22.201 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Imie
+20190317T12:16:22.351 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Imie.20190317T12:16:22:201956.png saved
+20190317T12:16:22.352 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:123qwe!@#, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:22.360 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:22.385 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:22.393 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:22.408 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:22.417 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:22.417 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:22.417 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:24.522 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:24.533 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:24.533 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:24.544 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:24.544 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:24.555 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:24.555 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:24.561 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:24.562 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:24.566 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:24.715 - SeleniumDriver - INFO: Keys email.example.com send to element with locator: email and locator type: id
+20190317T12:16:24.718 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:24.959 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:24.972 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:25.018 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:25.018 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:25.018 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email.example.com, accept_terms:
+
+
+20190317T12:16:25.023 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:25.030 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:25.037 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:25.050 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:25.059 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:25.059 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:25.059 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:27.165 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:27.177 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:27.177 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:27.187 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:27.188 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:27.200 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:27.201 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:27.210 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:27.210 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:27.215 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:27.470 - SeleniumDriver - INFO: Keys email@example@example.com send to element with locator: email and locator type: id
+20190317T12:16:27.475 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:27.709 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:27.715 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:27.748 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:27.748 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:27.748 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@example@example.com, accept_terms:
+
+
+20190317T12:16:27.752 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:27.760 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:27.767 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:27.777 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:27.785 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:27.785 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:27.785 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:29.798 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:29.809 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:29.809 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:29.820 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:29.821 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:29.831 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:29.832 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:29.842 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:29.843 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:29.852 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:30.073 - SeleniumDriver - INFO: Keys .email@example.com send to element with locator: email and locator type: id
+20190317T12:16:30.076 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:30.320 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:30.332 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:30.376 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:30.376 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:30.376 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:.email@example.com, accept_terms:
+
+
+20190317T12:16:30.380 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:30.387 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:30.395 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:30.408 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:30.417 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:30.417 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:30.417 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:32.490 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:32.503 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:32.504 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:32.516 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:32.516 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:32.529 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:32.529 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:32.544 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:32.545 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:32.565 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:32.790 - SeleniumDriver - INFO: Keys email.@example.com send to element with locator: email and locator type: id
+20190317T12:16:32.794 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:33.042 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:33.050 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:33.050 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:33.196 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:16:33:051122.png saved
+20190317T12:16:33.196 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:email.@example.com, accept_terms:
+
+
+20190317T12:16:33.205 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:33.212 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:33.220 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:33.246 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:33.259 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:33.259 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:33.259 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:35.261 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:35.273 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:35.273 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:35.284 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:35.284 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:35.295 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:35.296 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:35.307 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:35.307 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:35.315 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:35.552 - SeleniumDriver - INFO: Keys email..email@example.com send to element with locator: email and locator type: id
+20190317T12:16:35.555 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:35.792 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:35.801 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:35.802 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:35.948 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:16:35:802547.png saved
+20190317T12:16:35.948 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:email..email@example.com, accept_terms:
+
+
+20190317T12:16:35.958 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:35.965 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:35.972 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:35.995 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:36.008 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:36.008 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:36.009 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:38.109 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:38.122 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:38.122 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:38.133 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:38.133 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:38.144 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:38.145 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:38.158 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:38.159 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:38.169 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:38.335 - SeleniumDriver - INFO: Keys あいうえお@example.com send to element with locator: email and locator type: id
+20190317T12:16:38.339 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:38.568 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:38.579 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:38.619 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:38.619 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:38.620 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:あいうえお@example.com, accept_terms:
+
+
+20190317T12:16:38.623 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:38.630 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:38.637 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:38.648 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:38.656 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:38.656 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:38.656 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:40.672 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:40.684 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:40.685 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:40.722 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:40.722 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:40.726 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:40.726 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:40.730 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:40.730 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:40.733 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:41.091 - SeleniumDriver - INFO: Keys email@example.com (Joe Smith) send to element with locator: email and locator type: id
+20190317T12:16:41.095 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:41.351 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:41.363 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:41.414 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:41.414 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:41.414 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@example.com (Joe Smith), accept_terms:
+
+
+20190317T12:16:41.418 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:41.426 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:41.433 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:41.446 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:41.454 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:41.454 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:41.455 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:43.462 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:43.474 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:43.474 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:43.486 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:43.487 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:43.498 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:43.498 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:43.509 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:43.509 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:43.520 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:43.696 - SeleniumDriver - INFO: Keys email@example send to element with locator: email and locator type: id
+20190317T12:16:43.699 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:43.958 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:43.969 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:43.969 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:44.119 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:16:43:970162.png saved
+20190317T12:16:44.119 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@example, accept_terms:
+
+
+20190317T12:16:44.127 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:44.134 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:44.141 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:44.168 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:44.183 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:44.183 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:44.183 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:46.286 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:46.298 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:46.298 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:46.311 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:46.311 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:46.323 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:46.324 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:46.336 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:46.336 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:46.349 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:46.598 - SeleniumDriver - INFO: Keys email@-example.com send to element with locator: email and locator type: id
+20190317T12:16:46.602 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:46.862 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:46.873 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj adres e-mail.')] and locator type: xpath
+20190317T12:16:46.874 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:46.874 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@-example.com, accept_terms:
+
+
+20190317T12:16:46.887 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:46.914 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:46.927 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:46.940 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:46.949 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:46.949 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:46.949 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:48.951 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:48.962 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:48.963 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:48.973 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:48.974 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:48.986 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:48.986 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:48.997 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:48.997 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:49.010 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:49.245 - SeleniumDriver - INFO: Keys email@example.web send to element with locator: email and locator type: id
+20190317T12:16:49.249 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:49.496 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:49.505 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj adres e-mail.')] and locator type: xpath
+20190317T12:16:49.506 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:49.506 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@example.web, accept_terms:
+
+
+20190317T12:16:49.516 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:49.530 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:49.538 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:49.560 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:49.569 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:49.569 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:49.569 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:51.580 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:51.591 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:51.592 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:51.606 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:51.606 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:51.618 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:51.619 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:51.631 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:51.631 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:51.642 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:51.643 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:16:51.650 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:51.934 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:51.951 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj adres e-mail.')] and locator type: xpath
+20190317T12:16:51.989 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj adres e-mail.')] and locator type: xpath visible
+20190317T12:16:51.989 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:51.989 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:16:51.993 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:52.001 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:52.008 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:52.016 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:52.024 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:52.025 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:52.025 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:54.132 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:54.144 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:54.145 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:54.157 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:54.157 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:54.169 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:54.169 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:54.180 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:54.180 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:54.191 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:54.498 - SeleniumDriver - INFO: Keys email@111.222.333.44444 send to element with locator: email and locator type: id
+20190317T12:16:54.502 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:54.773 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:54.784 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:54.785 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:54.931 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:16:54:785439.png saved
+20190317T12:16:54.931 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@111.222.333.44444, accept_terms:
+
+
+20190317T12:16:54.939 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:54.946 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:54.953 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:54.980 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:54.991 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:54.991 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:54.991 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:57.094 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:57.105 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:57.106 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:57.116 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:57.117 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:57.127 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:57.128 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:57.138 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:57.138 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:57.149 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:57.342 - SeleniumDriver - INFO: Keys email@example..com send to element with locator: email and locator type: id
+20190317T12:16:57.345 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:57.590 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:16:57.612 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:16:57.634 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:16:57.634 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:16:57.634 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:email@example..com, accept_terms:
+
+
+20190317T12:16:57.639 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:57.647 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:57.657 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:16:57.680 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:57.689 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:57.690 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:16:57.690 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:16:59.693 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:16:59.705 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:59.705 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:16:59.717 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:16:59.718 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:16:59.729 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:16:59.729 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:16:59.737 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:16:59.737 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:16:59.742 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:00.005 - SeleniumDriver - INFO: Keys Abc..123@example.com send to element with locator: email and locator type: id
+20190317T12:17:00.008 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:00.272 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:00.284 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:00.284 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:00.430 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:17:00:284910.png saved
+20190317T12:17:00.430 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:Abc..123@example.com, accept_terms:
+
+
+20190317T12:17:00.439 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:00.445 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:00.452 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:00.478 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:00.506 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:00.507 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:00.507 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:02.610 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:02.623 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:02.623 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:02.634 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:02.635 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:02.645 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:02.646 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:02.652 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:02.653 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:02.657 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:02.918 - SeleniumDriver - INFO: Keys just"not"right@example.com send to element with locator: email and locator type: id
+20190317T12:17:02.922 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:03.159 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:03.170 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:03.219 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:03.220 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:03.220 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:just"not"right@example.com, accept_terms:
+
+
+20190317T12:17:03.224 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:03.231 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:03.238 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:03.250 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:03.260 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:03.260 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:03.260 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:05.262 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:05.273 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:05.274 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:05.286 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:05.287 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:05.298 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:05.298 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:05.304 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:05.304 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:05.309 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:05.658 - SeleniumDriver - INFO: Keys this is"not\allowed@example.com send to element with locator: email and locator type: id
+20190317T12:17:05.662 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:05.924 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:05.936 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:05.976 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:05.976 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:05.976 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:this is"not\allowed@example.com, accept_terms:
+
+
+20190317T12:17:05.981 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:05.991 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:06.003 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:06.032 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:06.046 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:06.046 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:06.046 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:08.124 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:08.128 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:08.128 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:08.132 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:08.132 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:08.136 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:08.136 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:08.140 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:08.140 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:08.143 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:08.541 - SeleniumDriver - INFO: Keys this\ still\"not\\allowed@example.com send to element with locator: email and locator type: id
+20190317T12:17:08.544 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:08.785 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:08.793 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:08.831 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:08.831 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:08.832 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:this\ still\"not\\allowed@example.com, accept_terms:
+
+
+20190317T12:17:08.835 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:08.842 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:08.849 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:08.861 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:08.869 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:08.870 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:08.870 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:10.934 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:10.944 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:10.945 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:10.954 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:10.955 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:10.965 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:10.965 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:10.973 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:10.974 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:10.982 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:11.753 - SeleniumDriver - INFO: Keys 1234567890123456789012345678901234567890123456789012345678901234+x@example send to element with locator: email and locator type: id
+20190317T12:17:11.757 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:12.028 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:12.038 - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:12.039 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:12.186 - SeleniumDriver - INFO: Screenshot: /home/lukasz/Pulpit/selenium_framework/selenium_framework/base/../screenshots/Verify_textbox_for_Adres_e-mail.20190317T12:17:12:039410.png saved
+20190317T12:17:12.186 - SeleniumDriver - ERROR: ### VERIFICATION FAILED ### test_invalid_register_empty_form name:, last_name:, password:, email:1234567890123456789012345678901234567890123456789012345678901234+x@example, accept_terms:
+
+
+20190317T12:17:12.196 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:12.203 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:12.210 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:12.235 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:12.245 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:12.245 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:12.245 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:14.339 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:14.350 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:14.350 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:14.361 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:14.361 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:14.373 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:14.373 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:14.384 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:14.384 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:14.394 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:14.532 - SeleniumDriver - INFO: Keys plainaddress send to element with locator: email and locator type: id
+20190317T12:17:14.537 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:14.782 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:14.793 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:14.846 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:14.846 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:14.846 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:plainaddress, accept_terms:
+
+
+20190317T12:17:14.850 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:14.857 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:14.864 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:14.876 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:14.884 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:14.884 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:14.884 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:16.991 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:17.002 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:17.002 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:17.011 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:17.011 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:17.020 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:17.020 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:17.029 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:17.030 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:17.039 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:17.223 - SeleniumDriver - INFO: Keys #@%^%#$@#$@#.com send to element with locator: email and locator type: id
+20190317T12:17:17.227 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:17.465 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:17.470 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:17.494 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:17.494 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:17.494 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:#@%^%#$@#$@#.com, accept_terms:
+
+
+20190317T12:17:17.498 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:17.506 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:17.514 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:17.556 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:17.569 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:17.569 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:17.569 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:19.660 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:19.672 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:19.672 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:19.684 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:19.684 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:19.695 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:19.696 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:19.706 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:19.706 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:19.717 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:19.890 - SeleniumDriver - INFO: Keys @example.com send to element with locator: email and locator type: id
+20190317T12:17:19.894 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:20.148 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:20.160 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:20.202 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:20.202 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:20.202 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:@example.com, accept_terms:
+
+
+20190317T12:17:20.206 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:20.214 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:20.221 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:20.234 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:20.242 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:20.242 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:20.242 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:22.331 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:22.342 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:22.342 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:22.352 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:22.353 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:22.363 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:22.363 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:22.370 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:22.371 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:22.375 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:22.678 - SeleniumDriver - INFO: Keys Joe Smith <email@example.com> send to element with locator: email and locator type: id
+20190317T12:17:22.682 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:22.924 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:22.935 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath
+20190317T12:17:22.990 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj prawidłowy adres e-mail.')] and locator type: xpath visible
+20190317T12:17:22.990 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Adres_e-mail
+20190317T12:17:22.990 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:Joe Smith <email@example.com>, accept_terms:
+
+
+20190317T12:17:22.994 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:23.002 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:23.009 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:23.020 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:23.029 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:23.029 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:23.029 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:25.039 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:25.050 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:25.051 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:25.063 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:25.063 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:25.075 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:25.075 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:25.086 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:25.087 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:25.095 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:25.096 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:25.102 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:25.379 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:25.390 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Podaj hasło.')] and locator type: xpath
+20190317T12:17:25.435 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Podaj hasło.')] and locator type: xpath visible
+20190317T12:17:25.435 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:25.435 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:17:25.439 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:25.446 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:25.453 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:25.461 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:25.470 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:25.470 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:25.470 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:27.571 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:27.583 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:27.584 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:27.596 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:27.596 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:27.606 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:27.606 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:27.613 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:27.686 - SeleniumDriver - INFO: Keys   1   send to element with locator: password and locator type: id
+20190317T12:17:27.691 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:27.691 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:27.694 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:27.942 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:27.953 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath
+20190317T12:17:27.993 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath visible
+20190317T12:17:27.993 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:27.993 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:  1  , email:, accept_terms:
+
+
+20190317T12:17:27.998 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:28.005 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:28.012 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:28.018 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:28.031 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:28.031 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:28.031 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:30.129 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:30.141 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:30.141 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:30.151 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:30.152 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:30.162 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:30.162 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:30.173 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:30.254 - SeleniumDriver - INFO: Keys 12345 send to element with locator: password and locator type: id
+20190317T12:17:30.260 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:30.260 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:30.263 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:30.522 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:30.536 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath
+20190317T12:17:30.588 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath visible
+20190317T12:17:30.588 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:30.588 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:12345, email:, accept_terms:
+
+
+20190317T12:17:30.593 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:30.601 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:30.609 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:30.616 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:30.639 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:30.640 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:30.640 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:32.748 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:32.760 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:32.760 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:32.772 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:32.772 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:32.782 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:32.783 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:32.793 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:32.882 - SeleniumDriver - INFO: Keys qwert send to element with locator: password and locator type: id
+20190317T12:17:32.886 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:32.886 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:32.889 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:33.149 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:33.161 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath
+20190317T12:17:33.211 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath visible
+20190317T12:17:33.212 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:33.212 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:qwert, email:, accept_terms:
+
+
+20190317T12:17:33.216 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:33.223 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:33.230 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:33.237 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:33.251 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:33.251 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:33.251 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:35.351 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:35.362 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:35.363 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:35.373 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:35.373 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:35.384 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:35.384 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:35.395 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:35.476 - SeleniumDriver - INFO: Keys !@#$% send to element with locator: password and locator type: id
+20190317T12:17:35.479 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:35.479 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:35.482 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:35.731 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:35.741 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath
+20190317T12:17:35.775 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath visible
+20190317T12:17:35.775 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:35.775 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:!@#$%, email:, accept_terms:
+
+
+20190317T12:17:35.779 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:35.786 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:35.793 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:35.799 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:35.811 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:35.811 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:35.812 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:37.915 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:37.935 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:37.935 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:37.946 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:37.947 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:37.953 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:37.953 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:37.957 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:38.035 - SeleniumDriver - INFO: Keys !@qw1 send to element with locator: password and locator type: id
+20190317T12:17:38.039 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:38.040 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:38.043 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:38.303 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:38.315 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath
+20190317T12:17:38.355 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Hasło powinno mieć minimum 6 znaków.')] and locator type: xpath visible
+20190317T12:17:38.355 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_Haslo
+20190317T12:17:38.355 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:!@qw1, email:, accept_terms:
+
+
+20190317T12:17:38.359 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:38.370 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:38.378 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:38.386 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:38.403 - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:38.403 - SeleniumDriver - INFO: Could not mouseover to element with locator: //div[contains(@class,'hover-active')] and locator type: xpath
+20190317T12:17:38.403 - SeleniumDriver - INFO: Waiting for maximum :: 2 :: seconds for element to be clickable
+20190317T12:17:40.496 - SeleniumDriver - INFO: Element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath is not clicable
+20190317T12:17:40.503 - SeleniumDriver - INFO: Element not found with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:40.504 - SeleniumDriver - INFO: 'NoneType' object has no attribute 'click' Cannot click on element with locator: //a[@href='https://www.x-kom.pl/rejestracja/'] and locator type: xpath
+20190317T12:17:40.507 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:40.507 - SeleniumDriver - INFO: Keys  send to element with locator: firstName and locator type: id
+20190317T12:17:40.511 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:40.511 - SeleniumDriver - INFO: Keys  send to element with locator: lastName and locator type: id
+20190317T12:17:40.515 - SeleniumDriver - INFO: Element found with locator: password and locator type: id
+20190317T12:17:40.515 - SeleniumDriver - INFO: Keys  send to element with locator: password and locator type: id
+20190317T12:17:40.519 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:40.519 - SeleniumDriver - INFO: Keys  send to element with locator: email and locator type: id
+20190317T12:17:40.523 - SeleniumDriver - INFO: Element found with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:40.769 - SeleniumDriver - INFO: Clicked on element with locator: //button[@type='submit'] and locator type: xpath
+20190317T12:17:40.780 - SeleniumDriver - INFO: Element found with locator: //span[contains(text(), 'Zaakceptuj regulamin.')] and locator type: xpath
+20190317T12:17:40.822 - SeleniumDriver - INFO: Element with locator: //span[contains(text(), 'Zaakceptuj regulamin.')] and locator type: xpath visible
+20190317T12:17:40.822 - SeleniumDriver - INFO: ### VERIFICATION SUCCESSFUL ### Verify_textbox_for_accept_terms
+20190317T12:17:40.822 - SeleniumDriver - INFO: ### VERIFICATION PASSED ### test_invalid_register_empty_form name:, last_name:, password:, email:, accept_terms:
+
+
+20190317T12:17:40.826 - SeleniumDriver - INFO: Element found with locator: firstName and locator type: id
+20190317T12:17:40.833 - SeleniumDriver - INFO: Element found with locator: lastName and locator type: id
+20190317T12:17:40.840 - SeleniumDriver - INFO: Element found with locator: email and locator type: id
+20190317T12:17:40.847 - SeleniumDriver - INFO: Element found with locator: password and locator type: id

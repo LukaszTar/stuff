@@ -24,7 +24,6 @@ class DriverFactory:
             driver = webdriver.Chrome(chrome_driver)
         elif self.browser.lower() == 'ie':
             driver = webdriver.Ie()
-        driver.implicitly_wait(3)
         driver.maximize_window()
         driver.get(base_url)
 
