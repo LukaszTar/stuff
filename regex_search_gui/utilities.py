@@ -1,4 +1,4 @@
-from tkinter import *
+import re
 
 
 def regex_search(file_content, pattern):
