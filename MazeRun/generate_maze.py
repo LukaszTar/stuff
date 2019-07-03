@@ -20,13 +20,12 @@ def get_neighbors(x, y):
 def generate_dot_positions(xsize, ysize):
     positions = get_all_dot_positions(xsize, ysize)
     dots = set()
-    while positions != []:
-        x, y = random.choice(positions)
+    random.shuffle(positions)
+    for x, y in positions:
         neighbors = get_neighbors(x, y)
         free = [nb in dots for nb in neighbors]
         if free.count(True) < 5:
             dots.add((x, y))
-        positions.remove((x, y))
     return dots
 
 def create_maze(xsize, ysize):

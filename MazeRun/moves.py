@@ -29,7 +29,11 @@ def move(level, direction):
     if level[newy][newx] == 'o':
         cratex = newx + direction[0]
         cratey = newy + direction[1]
-        level[cratey][cratex] = 'o'
-    if level[newy][newx] != '#':
+        if level[cratey][cratex] in '. ':
+            level[cratey][cratex] = 'o'
+            level[newy][newx] = ' '
+        elif level[cratey][cratex] == 'x':
+            raise NotImplementedError('Skrzynia przesunieta poza wyjscie')
+    if level[newy][newx] in '. ':
         level[oldy][oldx] = ' '
         level[newy][newx] = '*'

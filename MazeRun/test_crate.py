@@ -1,6 +1,7 @@
 from draw_maze import parse_grid
 from moves import move
 from moves import LEFT, RIGHT, UP, DOWN
+import pytest
 
 LEVEL = """
 #######
@@ -11,20 +12,63 @@ LEVEL = """
 #.....#
 #######"""
 
-def move_crate(direction, plr_pos, crate_pos):
-    maze = parse_grid(LEVEL)
-    move(maze, direction)
-    assert maze[plr_pos[0]][plr_pos[1]] == '*'
-    assert maze[crate_pos[0]][crate_pos[1]] == 'o'
+LEVEL_NO_DOTS = LEVEL.replace('.', ' ')
 
-def test_move_crate_left():
-    move_crate(LEFT, (3, 2), (3, 1))
+PATH_PLAYERPOS = [
+    ((UP, LEFT), 2, 2),
+    ((LEFT, UP), 2, 2),
+    ((RIGHT, UP, LEFT, LEFT), 2, 2),
+    ((UP,), 2, 3),
+    ((LEFT, RIGHT), 3, 3),
+    ((RIGHT, RIGHT), 4, 3)
+]
 
-def test_move_crate_right():
-    move_crate(RIGHT, (3, 4), (3, 5))
+CRATE_MOVES = [
+    (LEFT, (3, 2), (3, 1)),
+    (RIGHT, (3, 4), (3, 5)),
+    (UP, (2, 3), (1, 3)),
+    (DOWN, (4, 3), (5, 3))
+]
 
-def test_move_crate_up():
-    move_crate(UP, (2, 3), (1, 3))
+@pytest.fixture(params=[LEVEL, LEVEL_NO_DOTS])
+def level(request):
+    return parse_grid(request.param)
 
-def test_move_crate_down():
-    move_crate(DOWN, (4, 3), (5, 3))
+@pytest.mark.parametrize('path, expected_x, expected_y', PATH_PLAYERPOS)
+def test_paths(path,expected_x, expected_y, level):
+    """różne ścieżki prowadzą do tego samego miejsca"""
+    for direction in path:
+        move(level, direction)
+    assert level[expected_x][expected_y] == '*'
+
+class TestCrateMoves:
+    @pytest.mark.parametrize('direction, plr_pos, crate_pos',CRATE_MOVES)
+    def test_move_crate(self, level, direction, plr_pos, crate_pos):
+        """Po wykonaniu funkcji move gracz i skrzynia przesunieci o jedna kratke"""
+        print(direction, plr_pos, crate_pos)
+        move(level, direction)
+        assert level[plr_pos[0]][plr_pos[1]] == '*'
+        assert level[crate_pos[0]][crate_pos[1]] == 'o'
+
+class TestPlayerMoves:
+    def test_move_to_none(self):
+        """direction=None generuje wyjatek"""
+        with pytest.xfail(TypeError):
+            move(level, None)
+
+    @pytest.mark.parametrize('path, expected_x, expected_y', PATH_PLAYERPOS)
+    def test_move_player(self, level, path, expected_x, expected_y):
+        """pozycja gracza prawidlowo zmienila polozenie"""
+        for direction in path:
+            move(level, direction)
+        assert level[expected_y][expected_x]
+
+def test_push_crate_to_wall():
+    maze = parse_grid('*o#')
+    move(maze, RIGHT)
+    assert maze[0] == ['*', 'o', '#']
+
+def test_push_crate_to_crate():
+    maze = parse_grid('*oo')
+    move(maze, RIGHT)
+    assert maze[0] == ['*', 'o', 'o']
