@@ -1,6 +1,6 @@
-from draw_maze import parse_grid
 from moves import move
 from moves import LEFT, RIGHT, UP, DOWN
+from draw_maze import parse_grid
 import pytest
 
 LEVEL = """
